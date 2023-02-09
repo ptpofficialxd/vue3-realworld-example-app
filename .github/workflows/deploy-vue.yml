@@ -21,7 +21,7 @@ jobs:
          node-version: 18.x
          cache: 'pnpm'
      - name: build the code
-       run: |
+       run: | 
          pnpm install
          pnpm build
      - name: copy file to server
